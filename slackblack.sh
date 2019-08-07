@@ -1,6 +1,9 @@
 #!/bin/bash
 # Make Slack Black (from v.4.0.0)
 
+# Install Asar if not available on local machine
+npm list | grep asar > /dev/null || npm install asar --no-shrinkwrap
+
 # Copy app.asar and app.asar.unpacked from Slack.app
 mkdir -p ~/tmp/slack
 cp /Applications/Slack.app/Contents/Resources/app.asar ~/tmp/slack
