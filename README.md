@@ -1,3 +1,9 @@
+**NOTICE:** Slack Desktop now [natively supports Dark Mode](https://slackhq.com/dark-mode-for-slack-desktop). You can do this in Slack by going to `Preferences > Themes`. 
+
+In light of this annoucement, I don't intend to update this script anymore. Thanks for your support!
+
+---
+
 # Slackblack
 
 You were able to use Slack in dark mode with a more simple injection of Javascript prior to v4.0.0. However, the new update changed the file directory of Slack.app, so now there are more steps involved in applying this modification. This simple script aims to automate this process.
